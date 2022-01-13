@@ -1,0 +1,93 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.topnav {
+  background-color: rgb(27, 26, 26);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 7px 29px;
+  color: #f8f7f447;
+}
+.container1 {
+}
+#layout {
+  font-size: 18px;
+  margin-left: 4%;
+}
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  margin-top: 1%;
+  justify-content: flex-start;
+}
+
+.head h4 {
+  margin: 1%;
+  color: rgb(119 88 88);
+}
+#page {
+  margin-left: 4%;
+  font-size: 20px;
+  color: black;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+  margin-right: 6%;
+}
+.fitem {
+  width: 300px;
+  margin-inline: 37px;
+}
+.fitem h2 {
+  color: rgb(87, 126, 243);
+  margin-block: 7px;
+}
+.fitem p {
+  margin-block: 10px;
+}
+hr {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.footer {
+  font-size: 8px;
+  margin: 9px;
+  margin-left: 6%;
+}
+@media screen and (max-width: 687px) {
+  .head{
+    margin-left: 16%;
+  }
+  .nav{
+    display: flex;
+    justify-content: center;
+  }
+.head h4{
+  display: flex;
+}
+}
+@media screen and (max-width:457px) {
+  .topnav a{
+   
+    font-size: 68%;
+  }
+  
+}
+@media screen and (max-width:796px) {
+  .head{
+    margin-left: 22%;
+  }
+  .nav{
+    margin-left: 20%;
+  }
+}
