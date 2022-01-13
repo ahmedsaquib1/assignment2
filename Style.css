@@ -26,6 +26,7 @@
   flex-wrap: wrap;
   padding: 2%;
   margin-top: 1%;
+  justify-content: flex-start;
 }
 
 .head h4 {
@@ -40,7 +41,8 @@
 .container2 {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 3%;
+justify-content: center;
+  margin-right: 6%;
 }
 .fitem {
   width: 300px;
@@ -61,4 +63,31 @@ hr {
   font-size: 8px;
   margin: 9px;
   margin-left: 6%;
+}
+@media screen and (max-width: 687px) {
+  .head{
+    margin-left: 16%;
+  }
+  .nav{
+    display: flex;
+    justify-content: center;
+  }
+.head h4{
+  display: flex;
+}
+}
+@media screen and (max-width:457px) {
+  .topnav a{
+   
+    font-size: 68%;
+  }
+  
+}
+@media screen and (max-width:796px) {
+  .head{
+    margin-left: 22%;
+  }
+  .nav{
+    margin-left: 20%;
+  }
 }
